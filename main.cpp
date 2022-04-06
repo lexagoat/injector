@@ -21,7 +21,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			return NULL;
 		}
 
-		GameProcessId = GetPidFromName(TEXT("BFP4f.exe"));
+		GameProcessId = GetPidFromName(TEXT("csgo.exe"));
 
 		Sleep(250);
 	}
